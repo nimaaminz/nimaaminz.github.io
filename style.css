@@ -1,0 +1,127 @@
+body {
+    font-family: 'Open Sans', sans-serif; /* Modern, readable sans-serif font */
+    margin: 0;
+    padding: 20px; /* Add some padding around the whole body */
+    background-color: #f4f4f4; /* Light gray background for a modern feel */
+    color: #333; /* Dark gray for better readability */
+    line-height: 1.6; /* Improved line height for readability */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* A more modern blue */
+    font-size: 2.5em; /* Slightly larger for impact */
+    margin-bottom: 5px;
+    width: 100%;
+    font-weight: 700; /* Make the name stand out */
+}
+
+h2 {
+    text-align: center;
+    color: #6c757d; /* A softer gray for the title */
+    font-size: 1.2em;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+section {
+    margin-bottom: 30px; /* Increased margin between sections */
+    background-color: #fff; /* White background for content sections */
+    padding: 20px;
+    border-radius: 8px; /* Slightly rounded corners for a modern touch */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border: none; /* Remove the default border */
+}
+
+.headerTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px; /* Increased padding */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; /* Separate the header from the content */
+}
+
+h3 {
+    font-size: 1.5em; /* Slightly larger section titles */
+    margin-top: 0;
+    color: #333;
+    border-bottom: 2px solid #007bff; /* Add a subtle blue line under the title */
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc; /* Use a standard disc for list items */
+}
+
+li {
+    margin-bottom: 8px; /* Add some spacing between list items */
+}
+
+h4 {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 5px;
+    margin-top: 15px; /* Add some space before each job title */
+    font-weight: 600; /* Make job titles a bit bolder */
+}
+
+p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design Adjustments */
+@media screen and (max-width: 767px) {
+    body {
+        padding: 10px;
+        font-size: 16px; /* Slightly larger font size on mobile for better readability */
+    }
+    section {
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 6px;
+    }
+    h1 {
+        font-size: 2em;
+        margin-bottom: 3px;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+    section {
+        padding: 12px;
+    }
+    h3 {
+        font-size: 1.3em;
+        margin-bottom: 10px;
+        padding-bottom: 6px;
+    }
+    ul {
+        padding-left: 15px;
+    }
+    li {
+        margin-bottom: 6px;
+    }
+    h4 {
+        font-size: 1em;
+        margin-top: 10px;
+        margin-bottom: 3px;
+    }
+    p {
+        margin-bottom: 8px;
+    }
+}
