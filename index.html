@@ -35,7 +35,7 @@
                 <section>
                     <h2 class="section-header">Summary</h2>
                     <p class="text-sm text-gray-600 text-justify">
-                        Software Engineer with 6 years of experience bridging the gap between <b>High-Performance Backend Systems</b> and <b>Applied AI</b>. Expert in .NET ecosystem and Computer Vision (YOLO/OpenCV). Proven track record in developing autonomous vehicle systems and scalable AI-driven architectures.
+                        Software Engineer with <span id="years-exp"></span> years of experience bridging the gap between <b>High-Performance Backend Systems</b> and <b>Applied AI</b>. Expert in .NET ecosystem and Computer Vision (YOLO/OpenCV). Proven track record in developing autonomous vehicle systems and scalable AI-driven architectures.
                     </p>
                 </section>
 
@@ -141,5 +141,8 @@
             </div>
         </div>
     </div>
+    <script>
+    document.getElementById('years-exp').textContent = new Date().getFullYear() - 2019;
+</script>
 </body>
 </html>
